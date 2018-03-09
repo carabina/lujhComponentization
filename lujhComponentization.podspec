@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'lujhComponentization'
-s.version     = '2.0.1'
+s.version     = '3.0.0'
 s.authors     = { 'daniulaolu' => '287929070@qq.com' }
 s.homepage    = 'https://github.com/daniulaolu/lujhComponentization'
 s.summary     = 'a dropdown menu for ios like wechat homepage.'
