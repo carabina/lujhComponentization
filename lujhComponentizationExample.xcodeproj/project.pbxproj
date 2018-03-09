@@ -27,14 +27,7 @@
 		2E11969F20529045009B0E3F /* UIButton+SSEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11968C20529044009B0E3F /* UIButton+SSEdgeInsets.m */; };
 		2E1196A020529045009B0E3F /* UITabBar+TBBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11968D20529044009B0E3F /* UITabBar+TBBadge.m */; };
 		2E1196A120529045009B0E3F /* UIView+TBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11969120529044009B0E3F /* UIView+TBFrame.m */; };
-		2E11973D20529734009B0E3F /* TBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11972B20529733009B0E3F /* TBHomeViewController.m */; };
-		2E11973E20529734009B0E3F /* TBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11972C20529733009B0E3F /* TBMessageViewController.m */; };
-		2E11973F20529734009B0E3F /* TBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11972E20529733009B0E3F /* TBCardViewController.m */; };
-		2E11974020529734009B0E3F /* TBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973320529733009B0E3F /* TBHotViewController.m */; };
-		2E11974120529734009B0E3F /* TBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973420529733009B0E3F /* TBMeViewController.m */; };
 		2E11974220529734009B0E3F /* lujh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973620529733009B0E3F /* lujh.m */; };
-		2E11974320529734009B0E3F /* TBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973820529733009B0E3F /* TBFindViewController.m */; };
-		2E11974420529734009B0E3F /* TBPlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973B20529733009B0E3F /* TBPlusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,22 +111,8 @@
 		2E11968F20529044009B0E3F /* UITabBar+TBBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+TBBadge.h"; sourceTree = "<group>"; };
 		2E11969020529044009B0E3F /* UIButton+SSEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SSEdgeInsets.h"; sourceTree = "<group>"; };
 		2E11969120529044009B0E3F /* UIView+TBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TBFrame.m"; sourceTree = "<group>"; };
-		2E11972920529733009B0E3F /* TBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeViewController.h; sourceTree = "<group>"; };
-		2E11972A20529733009B0E3F /* TBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMessageViewController.h; sourceTree = "<group>"; };
-		2E11972B20529733009B0E3F /* TBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeViewController.m; sourceTree = "<group>"; };
-		2E11972C20529733009B0E3F /* TBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMessageViewController.m; sourceTree = "<group>"; };
-		2E11972E20529733009B0E3F /* TBCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCardViewController.m; sourceTree = "<group>"; };
-		2E11972F20529733009B0E3F /* TBCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCardViewController.h; sourceTree = "<group>"; };
 		2E11973020529733009B0E3F /* lujh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lujh.h; sourceTree = "<group>"; };
-		2E11973220529733009B0E3F /* TBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMeViewController.h; sourceTree = "<group>"; };
-		2E11973320529733009B0E3F /* TBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHotViewController.m; sourceTree = "<group>"; };
-		2E11973420529733009B0E3F /* TBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMeViewController.m; sourceTree = "<group>"; };
-		2E11973520529733009B0E3F /* TBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHotViewController.h; sourceTree = "<group>"; };
 		2E11973620529733009B0E3F /* lujh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lujh.m; sourceTree = "<group>"; };
-		2E11973820529733009B0E3F /* TBFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFindViewController.m; sourceTree = "<group>"; };
-		2E11973920529733009B0E3F /* TBFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFindViewController.h; sourceTree = "<group>"; };
-		2E11973B20529733009B0E3F /* TBPlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPlusViewController.m; sourceTree = "<group>"; };
-		2E11973C20529733009B0E3F /* TBPlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPlusViewController.h; sourceTree = "<group>"; };
 		38C3C7CE3DFA806E739A3C98 /* Pods-lujhComponentizationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7675450ED94C4AE43C0AD0A1 /* libPods-lujhComponentizationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lujhComponentizationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB69298D3B11FD7F9D82F398 /* Pods-lujhComponentizationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -333,65 +312,11 @@
 		2E11972720529733009B0E3F /* lujhComponentization */ = {
 			isa = PBXGroup;
 			children = (
-				2E11972820529733009B0E3F /* Home */,
-				2E11972D20529733009B0E3F /* Card */,
-				2E11973120529733009B0E3F /* Me */,
-				2E11973720529733009B0E3F /* Find */,
-				2E11973A20529733009B0E3F /* Plus */,
 				2E11973020529733009B0E3F /* lujh.h */,
 				2E11973620529733009B0E3F /* lujh.m */,
 			);
 			path = lujhComponentization;
 			sourceTree = SOURCE_ROOT;
-		};
-		2E11972820529733009B0E3F /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				2E11972920529733009B0E3F /* TBHomeViewController.h */,
-				2E11972A20529733009B0E3F /* TBMessageViewController.h */,
-				2E11972B20529733009B0E3F /* TBHomeViewController.m */,
-				2E11972C20529733009B0E3F /* TBMessageViewController.m */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		2E11972D20529733009B0E3F /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				2E11972E20529733009B0E3F /* TBCardViewController.m */,
-				2E11972F20529733009B0E3F /* TBCardViewController.h */,
-			);
-			path = Card;
-			sourceTree = "<group>";
-		};
-		2E11973120529733009B0E3F /* Me */ = {
-			isa = PBXGroup;
-			children = (
-				2E11973220529733009B0E3F /* TBMeViewController.h */,
-				2E11973320529733009B0E3F /* TBHotViewController.m */,
-				2E11973420529733009B0E3F /* TBMeViewController.m */,
-				2E11973520529733009B0E3F /* TBHotViewController.h */,
-			);
-			path = Me;
-			sourceTree = "<group>";
-		};
-		2E11973720529733009B0E3F /* Find */ = {
-			isa = PBXGroup;
-			children = (
-				2E11973820529733009B0E3F /* TBFindViewController.m */,
-				2E11973920529733009B0E3F /* TBFindViewController.h */,
-			);
-			path = Find;
-			sourceTree = "<group>";
-		};
-		2E11973A20529733009B0E3F /* Plus */ = {
-			isa = PBXGroup;
-			children = (
-				2E11973B20529733009B0E3F /* TBPlusViewController.m */,
-				2E11973C20529733009B0E3F /* TBPlusViewController.h */,
-			);
-			path = Plus;
-			sourceTree = "<group>";
 		};
 		6392353C96909FAEAAC984FD /* Frameworks */ = {
 			isa = PBXGroup;
@@ -644,21 +569,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E11974320529734009B0E3F /* TBFindViewController.m in Sources */,
 				2E1196A120529045009B0E3F /* UIView+TBFrame.m in Sources */,
-				2E11974420529734009B0E3F /* TBPlusViewController.m in Sources */,
 				2E11969E20529045009B0E3F /* UIFactory.m in Sources */,
-				2E11973E20529734009B0E3F /* TBMessageViewController.m in Sources */,
-				2E11974120529734009B0E3F /* TBMeViewController.m in Sources */,
 				2E11974220529734009B0E3F /* lujh.m in Sources */,
-				2E11973F20529734009B0E3F /* TBCardViewController.m in Sources */,
 				2E11969F20529045009B0E3F /* UIButton+SSEdgeInsets.m in Sources */,
 				2E11969620529045009B0E3F /* TBBaseViewController.m in Sources */,
 				2E1196082052861E009B0E3F /* main.m in Sources */,
-				2E11973D20529734009B0E3F /* TBHomeViewController.m in Sources */,
 				2E1196A020529045009B0E3F /* UITabBar+TBBadge.m in Sources */,
 				2E11969320529045009B0E3F /* TBTabBar.m in Sources */,
-				2E11974020529734009B0E3F /* TBHotViewController.m in Sources */,
 				2E11969520529045009B0E3F /* TBNavigationController.m in Sources */,
 				2E11969220529044009B0E3F /* AppDelegate.m in Sources */,
 				2E11969420529045009B0E3F /* TBTabBarController.m in Sources */,
