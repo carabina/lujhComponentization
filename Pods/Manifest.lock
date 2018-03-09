@@ -1,0 +1,15 @@
+PODS:
+  - lujhComponentization (1.0.6):
+    - SAMKeychain
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - lujhComponentization
+
+SPEC CHECKSUMS:
+  lujhComponentization: ce2881d951c6ca2feafb3451f2e888caf1628b39
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: b249011a10407d3bbe2bc8816a92f1cc71ba7ff2
+
+COCOAPODS: 1.4.0

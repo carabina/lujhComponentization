@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272200EA3454E60503EB8EB4 /* libPods-lujhComponentizationExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7675450ED94C4AE43C0AD0A1 /* libPods-lujhComponentizationExample.a */; };
 		2E1196002052861E009B0E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1195FE2052861E009B0E3F /* Main.storyboard */; };
 		2E1196022052861E009B0E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1196012052861E009B0E3F /* Assets.xcassets */; };
 		2E1196052052861E009B0E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1196032052861E009B0E3F /* LaunchScreen.storyboard */; };
@@ -133,6 +134,9 @@
 		2E1196C1205290DD009B0E3F /* TBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMessageViewController.h; sourceTree = "<group>"; };
 		2E1196C2205290DD009B0E3F /* TBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeViewController.m; sourceTree = "<group>"; };
 		2E1196C3205290DD009B0E3F /* TBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMessageViewController.m; sourceTree = "<group>"; };
+		38C3C7CE3DFA806E739A3C98 /* Pods-lujhComponentizationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7675450ED94C4AE43C0AD0A1 /* libPods-lujhComponentizationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lujhComponentizationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB69298D3B11FD7F9D82F398 /* Pods-lujhComponentizationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E119644205289C2009B0E3F /* lujhComponentizationFramework.framework in Frameworks */,
+				272200EA3454E60503EB8EB4 /* libPods-lujhComponentizationExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +182,8 @@
 				2E119630205289C2009B0E3F /* lujhComponentizationFramework */,
 				2E11963D205289C2009B0E3F /* lujhComponentizationFrameworkTests */,
 				2E1195F62052861E009B0E3F /* Products */,
+				EA9A086A80906E95C5E5E529 /* Pods */,
+				6392353C96909FAEAAC984FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -506,6 +513,23 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		6392353C96909FAEAAC984FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7675450ED94C4AE43C0AD0A1 /* libPods-lujhComponentizationExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9A086A80906E95C5E5E529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38C3C7CE3DFA806E739A3C98 /* Pods-lujhComponentizationExample.debug.xcconfig */,
+				FB69298D3B11FD7F9D82F398 /* Pods-lujhComponentizationExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -524,10 +548,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E1196212052861F009B0E3F /* Build configuration list for PBXNativeTarget "lujhComponentizationExample" */;
 			buildPhases = (
+				B096685D7B4660F47D061D51 /* [CP] Check Pods Manifest.lock */,
 				2E1195F12052861E009B0E3F /* Sources */,
 				2E1195F22052861E009B0E3F /* Frameworks */,
 				2E1195F32052861E009B0E3F /* Resources */,
 				2E11964B205289C2009B0E3F /* Embed Frameworks */,
+				AC9CD1C06DFB5C6E3F9CEF60 /* [CP] Embed Pods Frameworks */,
+				C0816C9F0E50680C18B6A325 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -677,6 +704,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC9CD1C06DFB5C6E3F9CEF60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B096685D7B4660F47D061D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lujhComponentizationExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0816C9F0E50680C18B6A325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E1195F12052861E009B0E3F /* Sources */ = {
@@ -878,6 +959,7 @@
 		};
 		2E1196222052861F009B0E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C3C7CE3DFA806E739A3C98 /* Pods-lujhComponentizationExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -894,6 +976,7 @@
 		};
 		2E1196232052861F009B0E3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB69298D3B11FD7F9D82F398 /* Pods-lujhComponentizationExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

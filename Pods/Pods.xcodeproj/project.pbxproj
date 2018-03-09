@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005D549E25D0DA02E589B8EA3678932B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C67705E086C8A5476E1786F003FA3 /* CoreGraphics.framework */; };
+		040D511EECB4474A464746B5F9AAC698 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8664A3F300A9299B22F80FB5835925B /* QuartzCore.framework */; };
+		208D8B3C374C7B7C458CE051DD533AE1 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A11306EA8E30C90ED4289ADE2EB575 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		250AD3E8C6DCC1B2483283821D0F8564 /* lujh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BFD518E98A4E2D96FEA9C53AC5B7A /* lujh.m */; };
+		26594F2D9296D43495F5768E0AC6424E /* lujhComponentization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CCD9D3BE3DF01C94AA01082E3FAB4E /* lujhComponentization-dummy.m */; };
+		2FC04A219AFBC674CBF25D5CE382B173 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3E977D1B9012C7E842004620EFDED4 /* UIKit.framework */; };
+		4AC9707D18DFBCA86DEB24AD4B5FFAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0503FD73F57F93FD82FDC5C542F804 /* Foundation.framework */; };
+		6810DC0A590408B89622CC86964AC798 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244C38E692B72CED5C960E104A0CC77 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EB030F47D56F46D79506D28415026BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065770A77AD8862C4A4E322A322BC4DC /* Security.framework */; };
+		91E11BDE9A89102624B5A57C4E697363 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D230D4CE1EE527BD6B35940B6DC32 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA53F6AB3BBD3682CD6A6F7C1A30814B /* Pods-lujhComponentizationExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA957B83C05840F9F0188FE87C6A03C /* Pods-lujhComponentizationExample-dummy.m */; };
+		C7295EDAEDDA68A836AAADBC5ACF716E /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1CFD43155DC871C8730DC05086030 /* SAMKeychain-dummy.m */; };
+		C876BBC66CD90DB5677644FC7DA6E703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0503FD73F57F93FD82FDC5C542F804 /* Foundation.framework */; };
+		CFC582F9119F672F892B9A81C4CB6748 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216F558AAE2FD0D6647A727AB02FA78 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBFEF490E62DBE6D35A9103E5A482819 /* lujh.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CE33E27A089C2F649412F09256917A /* lujh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F68446AB2AFA854B202959C731433B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0503FD73F57F93FD82FDC5C542F804 /* Foundation.framework */; };
+		FE8AA6F4CCA52AC8D489B941A7115E22 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5D210261DF1990AA670AB899FC531F /* CoreTelephony.framework */; };
+		FF9550AC39621ACB3380B9D5F6E4D170 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065770A77AD8862C4A4E322A322BC4DC /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F8ADD036701684532137AB8BDAB89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FD5A20D618694F5EF8AB837DCB56E3;
+			remoteInfo = SAMKeychain;
+		};
+		8DB81626FD30043A69FBDB1EBFE5F7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FD5A20D618694F5EF8AB837DCB56E3;
+			remoteInfo = SAMKeychain;
+		};
+		E49DC3D572E2AA7351E9004EE19D36BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD1C623679C782096DE2CC78B7E1ACD;
+			remoteInfo = lujhComponentization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065770A77AD8862C4A4E322A322BC4DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2244C38E692B72CED5C960E104A0CC77 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		231C67705E086C8A5476E1786F003FA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		24F46FF626647EFCF3C1F4717597E882 /* Pods-lujhComponentizationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lujhComponentizationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		28DD38F5B1A6D74473D5CDABDF1E8FB0 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		46F50A83FE5E34C45E644470AB658EA4 /* Pods-lujhComponentizationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lujhComponentizationExample.release.xcconfig"; sourceTree = "<group>"; };
+		496A4742E54A03271F3DE1F5892B544A /* Pods-lujhComponentizationExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lujhComponentizationExample-frameworks.sh"; sourceTree = "<group>"; };
+		57D7EA673BC2C6E22F4D4835BC643AE0 /* liblujhComponentization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = liblujhComponentization.a; path = liblujhComponentization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0503FD73F57F93FD82FDC5C542F804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C6BFD518E98A4E2D96FEA9C53AC5B7A /* lujh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = lujh.m; path = lujhComponentization/lujh.m; sourceTree = "<group>"; };
+		5CD1CFD43155DC871C8730DC05086030 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		5D028AA4B9834B545E34DB00CC4F6E7B /* lujhComponentization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lujhComponentization.xcconfig; sourceTree = "<group>"; };
+		5E5D210261DF1990AA670AB899FC531F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		78BC6D0C6C12B92CB8EF2BEBFF95FA75 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828B982C1D2420668D0F708A9754AD38 /* lujhComponentization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lujhComponentization-prefix.pch"; sourceTree = "<group>"; };
+		9216F558AAE2FD0D6647A727AB02FA78 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A95D230D4CE1EE527BD6B35940B6DC32 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		B2CE33E27A089C2F649412F09256917A /* lujh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lujh.h; path = lujhComponentization/lujh.h; sourceTree = "<group>"; };
+		BEF751F951D8FA9C1D083F7898929D49 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		C19C10E3EDA770A3284E0916E19F1AE2 /* Pods-lujhComponentizationExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lujhComponentizationExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEA957B83C05840F9F0188FE87C6A03C /* Pods-lujhComponentizationExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lujhComponentizationExample-dummy.m"; sourceTree = "<group>"; };
+		D7CCD9D3BE3DF01C94AA01082E3FAB4E /* lujhComponentization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lujhComponentization-dummy.m"; sourceTree = "<group>"; };
+		DC299CBB74999A6B9F4D43D8E1AAFE57 /* libPods-lujhComponentizationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-lujhComponentizationExample.a"; path = "libPods-lujhComponentizationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73317413E46E2C7D5A70CD94155C6BC /* Pods-lujhComponentizationExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lujhComponentizationExample-resources.sh"; sourceTree = "<group>"; };
+		F3E5972A63D4E9010D6474D4E30D8CA8 /* Pods-lujhComponentizationExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lujhComponentizationExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4D946F47366B9E0F5EE80A9B3193844 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		F6A11306EA8E30C90ED4289ADE2EB575 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		F8664A3F300A9299B22F80FB5835925B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF3E977D1B9012C7E842004620EFDED4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1951EB82D2124B76E3B613336B5D42D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9707D18DFBCA86DEB24AD4B5FFAD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A26B9CDB432E60467E6B12B4492B714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68446AB2AFA854B202959C731433B0B /* Foundation.framework in Frameworks */,
+				6EB030F47D56F46D79506D28415026BE /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C22450D0F5B7365A4DB01E57B3549B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005D549E25D0DA02E589B8EA3678932B /* CoreGraphics.framework in Frameworks */,
+				FE8AA6F4CCA52AC8D489B941A7115E22 /* CoreTelephony.framework in Frameworks */,
+				C876BBC66CD90DB5677644FC7DA6E703 /* Foundation.framework in Frameworks */,
+				040D511EECB4474A464746B5F9AAC698 /* QuartzCore.framework in Frameworks */,
+				FF9550AC39621ACB3380B9D5F6E4D170 /* Security.framework in Frameworks */,
+				2FC04A219AFBC674CBF25D5CE382B173 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0910E03DF7C7B990BAE48EA1244AD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A92AD04623DA3F2CC771186B8399E16 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				9216F558AAE2FD0D6647A727AB02FA78 /* SAMKeychain.h */,
+				A95D230D4CE1EE527BD6B35940B6DC32 /* SAMKeychain.m */,
+				2244C38E692B72CED5C960E104A0CC77 /* SAMKeychainQuery.h */,
+				F6A11306EA8E30C90ED4289ADE2EB575 /* SAMKeychainQuery.m */,
+				A848CDC3B7D39B94470B22E13FA5829F /* Resources */,
+				ED4B179BA2EA1D0B797AA092455A0BC1 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		449CB461271285EC3527319B0A45D1C4 /* Pods-lujhComponentizationExample */ = {
+			isa = PBXGroup;
+			children = (
+				F3E5972A63D4E9010D6474D4E30D8CA8 /* Pods-lujhComponentizationExample-acknowledgements.markdown */,
+				C19C10E3EDA770A3284E0916E19F1AE2 /* Pods-lujhComponentizationExample-acknowledgements.plist */,
+				CEA957B83C05840F9F0188FE87C6A03C /* Pods-lujhComponentizationExample-dummy.m */,
+				496A4742E54A03271F3DE1F5892B544A /* Pods-lujhComponentizationExample-frameworks.sh */,
+				E73317413E46E2C7D5A70CD94155C6BC /* Pods-lujhComponentizationExample-resources.sh */,
+				24F46FF626647EFCF3C1F4717597E882 /* Pods-lujhComponentizationExample.debug.xcconfig */,
+				46F50A83FE5E34C45E644470AB658EA4 /* Pods-lujhComponentizationExample.release.xcconfig */,
+			);
+			name = "Pods-lujhComponentizationExample";
+			path = "Target Support Files/Pods-lujhComponentizationExample";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				EA4186B372B97E01D3C5E76AEF04A6C8 /* Pods */,
+				C704FD2A56C17A89C4FCF2C589FCBAB0 /* Products */,
+				849EE198F8BC071C61829EC70E801FE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		849EE198F8BC071C61829EC70E801FE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				449CB461271285EC3527319B0A45D1C4 /* Pods-lujhComponentizationExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99A759A4CF190A8F0DABD26F5506B5D6 /* lujhComponentization */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE33E27A089C2F649412F09256917A /* lujh.h */,
+				5C6BFD518E98A4E2D96FEA9C53AC5B7A /* lujh.m */,
+				F35FE42DDDF50B8D20F794A2F60A1ADB /* Support Files */,
+			);
+			name = lujhComponentization;
+			path = lujhComponentization;
+			sourceTree = "<group>";
+		};
+		A1C0910E03DF7C7B990BAE48EA1244AD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				231C67705E086C8A5476E1786F003FA3 /* CoreGraphics.framework */,
+				5E5D210261DF1990AA670AB899FC531F /* CoreTelephony.framework */,
+				5A0503FD73F57F93FD82FDC5C542F804 /* Foundation.framework */,
+				F8664A3F300A9299B22F80FB5835925B /* QuartzCore.framework */,
+				065770A77AD8862C4A4E322A322BC4DC /* Security.framework */,
+				FF3E977D1B9012C7E842004620EFDED4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A848CDC3B7D39B94470B22E13FA5829F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28DD38F5B1A6D74473D5CDABDF1E8FB0 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C704FD2A56C17A89C4FCF2C589FCBAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D7EA673BC2C6E22F4D4835BC643AE0 /* liblujhComponentization.a */,
+				DC299CBB74999A6B9F4D43D8E1AAFE57 /* libPods-lujhComponentizationExample.a */,
+				78BC6D0C6C12B92CB8EF2BEBFF95FA75 /* libSAMKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4186B372B97E01D3C5E76AEF04A6C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99A759A4CF190A8F0DABD26F5506B5D6 /* lujhComponentization */,
+				1A92AD04623DA3F2CC771186B8399E16 /* SAMKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED4B179BA2EA1D0B797AA092455A0BC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF751F951D8FA9C1D083F7898929D49 /* SAMKeychain.xcconfig */,
+				5CD1CFD43155DC871C8730DC05086030 /* SAMKeychain-dummy.m */,
+				F4D946F47366B9E0F5EE80A9B3193844 /* SAMKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		F35FE42DDDF50B8D20F794A2F60A1ADB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D028AA4B9834B545E34DB00CC4F6E7B /* lujhComponentization.xcconfig */,
+				D7CCD9D3BE3DF01C94AA01082E3FAB4E /* lujhComponentization-dummy.m */,
+				828B982C1D2420668D0F708A9754AD38 /* lujhComponentization-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/lujhComponentization";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		005987D7E2EE13666C5FB8645245FF9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFEF490E62DBE6D35A9103E5A482819 /* lujh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848063086D77E9E9CAE8B960E55E930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC582F9119F672F892B9A81C4CB6748 /* SAMKeychain.h in Headers */,
+				6810DC0A590408B89622CC86964AC798 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F2547E0A7667F7399BF9C8500062EB9 /* Pods-lujhComponentizationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65E98969F09FB6DECA7A570E8BB00DF /* Build configuration list for PBXNativeTarget "Pods-lujhComponentizationExample" */;
+			buildPhases = (
+				624A6E8A132AF58C16970A12A909D230 /* Sources */,
+				1951EB82D2124B76E3B613336B5D42D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437E80E6B06B5F7EF9532B5DE7E0C1A0 /* PBXTargetDependency */,
+				4C3963C0C4BF6736966C3B6A3FF59A57 /* PBXTargetDependency */,
+			);
+			name = "Pods-lujhComponentizationExample";
+			productName = "Pods-lujhComponentizationExample";
+			productReference = DC299CBB74999A6B9F4D43D8E1AAFE57 /* libPods-lujhComponentizationExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58FD5A20D618694F5EF8AB837DCB56E3 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B6C6E0181EF380903375AC93350792 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				99EF9EEB272D0BD85AC95A7FDA386A80 /* Sources */,
+				2A26B9CDB432E60467E6B12B4492B714 /* Frameworks */,
+				1848063086D77E9E9CAE8B960E55E930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 78BC6D0C6C12B92CB8EF2BEBFF95FA75 /* libSAMKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FDD1C623679C782096DE2CC78B7E1ACD /* lujhComponentization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D26519C755670B06BC770828AB876D0 /* Build configuration list for PBXNativeTarget "lujhComponentization" */;
+			buildPhases = (
+				8D2DCEF7545C26FAC43126A298A4899D /* Sources */,
+				47C22450D0F5B7365A4DB01E57B3549B /* Frameworks */,
+				005987D7E2EE13666C5FB8645245FF9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5CC926015F09481AF5DF609F8A8FE9 /* PBXTargetDependency */,
+			);
+			name = lujhComponentization;
+			productName = lujhComponentization;
+			productReference = 57D7EA673BC2C6E22F4D4835BC643AE0 /* liblujhComponentization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C704FD2A56C17A89C4FCF2C589FCBAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD1C623679C782096DE2CC78B7E1ACD /* lujhComponentization */,
+				0F2547E0A7667F7399BF9C8500062EB9 /* Pods-lujhComponentizationExample */,
+				58FD5A20D618694F5EF8AB837DCB56E3 /* SAMKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624A6E8A132AF58C16970A12A909D230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA53F6AB3BBD3682CD6A6F7C1A30814B /* Pods-lujhComponentizationExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2DCEF7545C26FAC43126A298A4899D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250AD3E8C6DCC1B2483283821D0F8564 /* lujh.m in Sources */,
+				26594F2D9296D43495F5768E0AC6424E /* lujhComponentization-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF9EEB272D0BD85AC95A7FDA386A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7295EDAEDDA68A836AAADBC5ACF716E /* SAMKeychain-dummy.m in Sources */,
+				91E11BDE9A89102624B5A57C4E697363 /* SAMKeychain.m in Sources */,
+				208D8B3C374C7B7C458CE051DD533AE1 /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437E80E6B06B5F7EF9532B5DE7E0C1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 58FD5A20D618694F5EF8AB837DCB56E3 /* SAMKeychain */;
+			targetProxy = 07F8ADD036701684532137AB8BDAB89A /* PBXContainerItemProxy */;
+		};
+		4C3963C0C4BF6736966C3B6A3FF59A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lujhComponentization;
+			target = FDD1C623679C782096DE2CC78B7E1ACD /* lujhComponentization */;
+			targetProxy = E49DC3D572E2AA7351E9004EE19D36BB /* PBXContainerItemProxy */;
+		};
+		6F5CC926015F09481AF5DF609F8A8FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 58FD5A20D618694F5EF8AB837DCB56E3 /* SAMKeychain */;
+			targetProxy = 8DB81626FD30043A69FBDB1EBFE5F7E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10C574E951556F360132E4FA708FC192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F50A83FE5E34C45E644470AB658EA4 /* Pods-lujhComponentizationExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288B335FABFDC32FB9193EE48AE01800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF751F951D8FA9C1D083F7898929D49 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A819CB9E463C28CFA97260E317119C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D028AA4B9834B545E34DB00CC4F6E7B /* lujhComponentization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/lujhComponentization/lujhComponentization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD7D8B99AF8E679859C183ACA69B7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D028AA4B9834B545E34DB00CC4F6E7B /* lujhComponentization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/lujhComponentization/lujhComponentization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C035EE4B41972BBA0B090C2145D1F0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF751F951D8FA9C1D083F7898929D49 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F0A1C863EF1AFDC2D6D8562EC5D070E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F46FF626647EFCF3C1F4717597E882 /* Pods-lujhComponentizationExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D26519C755670B06BC770828AB876D0 /* Build configuration list for PBXNativeTarget "lujhComponentization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD7D8B99AF8E679859C183ACA69B7BA /* Debug */,
+				2A819CB9E463C28CFA97260E317119C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B6C6E0181EF380903375AC93350792 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B335FABFDC32FB9193EE48AE01800 /* Debug */,
+				C035EE4B41972BBA0B090C2145D1F0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65E98969F09FB6DECA7A570E8BB00DF /* Build configuration list for PBXNativeTarget "Pods-lujhComponentizationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A1C863EF1AFDC2D6D8562EC5D070E0 /* Debug */,
+				10C574E951556F360132E4FA708FC192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
