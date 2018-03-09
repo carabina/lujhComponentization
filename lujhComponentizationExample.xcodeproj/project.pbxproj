@@ -29,6 +29,14 @@
 		2E1196A120529045009B0E3F /* UIView+TBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11969120529044009B0E3F /* UIView+TBFrame.m */; };
 		2E11974220529734009B0E3F /* lujh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11973620529733009B0E3F /* lujh.m */; };
 		2E11974820529A88009B0E3F /* Pepole.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11974720529A88009B0E3F /* Pepole.m */; };
+		2E11975F20529BCE009B0E3F /* Pepole.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11974B20529BCE009B0E3F /* Pepole.m */; };
+		2E11976020529BCE009B0E3F /* TBPlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11974D20529BCE009B0E3F /* TBPlusViewController.m */; };
+		2E11976120529BCE009B0E3F /* TBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975220529BCE009B0E3F /* TBHomeViewController.m */; };
+		2E11976220529BCE009B0E3F /* TBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975320529BCE009B0E3F /* TBMessageViewController.m */; };
+		2E11976320529BCE009B0E3F /* TBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975520529BCE009B0E3F /* TBFindViewController.m */; };
+		2E11976420529BCE009B0E3F /* TBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975920529BCE009B0E3F /* TBHotViewController.m */; };
+		2E11976520529BCE009B0E3F /* TBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975A20529BCE009B0E3F /* TBMeViewController.m */; };
+		2E11976620529BCE009B0E3F /* TBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11975D20529BCE009B0E3F /* TBCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +124,22 @@
 		2E11973620529733009B0E3F /* lujh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lujh.m; sourceTree = "<group>"; };
 		2E11974620529A88009B0E3F /* Pepole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pepole.h; sourceTree = "<group>"; };
 		2E11974720529A88009B0E3F /* Pepole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pepole.m; sourceTree = "<group>"; };
+		2E11974A20529BCE009B0E3F /* Pepole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pepole.h; sourceTree = "<group>"; };
+		2E11974B20529BCE009B0E3F /* Pepole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pepole.m; sourceTree = "<group>"; };
+		2E11974D20529BCE009B0E3F /* TBPlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPlusViewController.m; sourceTree = "<group>"; };
+		2E11974E20529BCE009B0E3F /* TBPlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPlusViewController.h; sourceTree = "<group>"; };
+		2E11975020529BCE009B0E3F /* TBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeViewController.h; sourceTree = "<group>"; };
+		2E11975120529BCE009B0E3F /* TBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMessageViewController.h; sourceTree = "<group>"; };
+		2E11975220529BCE009B0E3F /* TBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeViewController.m; sourceTree = "<group>"; };
+		2E11975320529BCE009B0E3F /* TBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMessageViewController.m; sourceTree = "<group>"; };
+		2E11975520529BCE009B0E3F /* TBFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFindViewController.m; sourceTree = "<group>"; };
+		2E11975620529BCE009B0E3F /* TBFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFindViewController.h; sourceTree = "<group>"; };
+		2E11975820529BCE009B0E3F /* TBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMeViewController.h; sourceTree = "<group>"; };
+		2E11975920529BCE009B0E3F /* TBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHotViewController.m; sourceTree = "<group>"; };
+		2E11975A20529BCE009B0E3F /* TBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMeViewController.m; sourceTree = "<group>"; };
+		2E11975B20529BCE009B0E3F /* TBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHotViewController.h; sourceTree = "<group>"; };
+		2E11975D20529BCE009B0E3F /* TBCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCardViewController.m; sourceTree = "<group>"; };
+		2E11975E20529BCE009B0E3F /* TBCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCardViewController.h; sourceTree = "<group>"; };
 		38C3C7CE3DFA806E739A3C98 /* Pods-lujhComponentizationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7675450ED94C4AE43C0AD0A1 /* libPods-lujhComponentizationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lujhComponentizationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB69298D3B11FD7F9D82F398 /* Pods-lujhComponentizationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lujhComponentizationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-lujhComponentizationExample/Pods-lujhComponentizationExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -315,7 +339,13 @@
 		2E11972720529733009B0E3F /* lujhComponentization */ = {
 			isa = PBXGroup;
 			children = (
+				2E11975C20529BCE009B0E3F /* Card */,
+				2E11975420529BCE009B0E3F /* Find */,
+				2E11974F20529BCE009B0E3F /* Home */,
 				2E11974520529A73009B0E3F /* Main */,
+				2E11974920529BCE009B0E3F /* Main */,
+				2E11975720529BCE009B0E3F /* Me */,
+				2E11974C20529BCE009B0E3F /* Plus */,
 				2E11973020529733009B0E3F /* lujh.h */,
 				2E11973620529733009B0E3F /* lujh.m */,
 			);
@@ -329,6 +359,64 @@
 				2E11974720529A88009B0E3F /* Pepole.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		2E11974920529BCE009B0E3F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E11974A20529BCE009B0E3F /* Pepole.h */,
+				2E11974B20529BCE009B0E3F /* Pepole.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E11974C20529BCE009B0E3F /* Plus */ = {
+			isa = PBXGroup;
+			children = (
+				2E11974D20529BCE009B0E3F /* TBPlusViewController.m */,
+				2E11974E20529BCE009B0E3F /* TBPlusViewController.h */,
+			);
+			path = Plus;
+			sourceTree = "<group>";
+		};
+		2E11974F20529BCE009B0E3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E11975020529BCE009B0E3F /* TBHomeViewController.h */,
+				2E11975120529BCE009B0E3F /* TBMessageViewController.h */,
+				2E11975220529BCE009B0E3F /* TBHomeViewController.m */,
+				2E11975320529BCE009B0E3F /* TBMessageViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E11975420529BCE009B0E3F /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				2E11975520529BCE009B0E3F /* TBFindViewController.m */,
+				2E11975620529BCE009B0E3F /* TBFindViewController.h */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		2E11975720529BCE009B0E3F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2E11975820529BCE009B0E3F /* TBMeViewController.h */,
+				2E11975920529BCE009B0E3F /* TBHotViewController.m */,
+				2E11975A20529BCE009B0E3F /* TBMeViewController.m */,
+				2E11975B20529BCE009B0E3F /* TBHotViewController.h */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2E11975C20529BCE009B0E3F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				2E11975D20529BCE009B0E3F /* TBCardViewController.m */,
+				2E11975E20529BCE009B0E3F /* TBCardViewController.h */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 		6392353C96909FAEAAC984FD /* Frameworks */ = {
@@ -582,17 +670,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E11976320529BCE009B0E3F /* TBFindViewController.m in Sources */,
+				2E11976020529BCE009B0E3F /* TBPlusViewController.m in Sources */,
 				2E11974820529A88009B0E3F /* Pepole.m in Sources */,
 				2E1196A120529045009B0E3F /* UIView+TBFrame.m in Sources */,
 				2E11969E20529045009B0E3F /* UIFactory.m in Sources */,
 				2E11974220529734009B0E3F /* lujh.m in Sources */,
 				2E11969F20529045009B0E3F /* UIButton+SSEdgeInsets.m in Sources */,
 				2E11969620529045009B0E3F /* TBBaseViewController.m in Sources */,
+				2E11975F20529BCE009B0E3F /* Pepole.m in Sources */,
 				2E1196082052861E009B0E3F /* main.m in Sources */,
 				2E1196A020529045009B0E3F /* UITabBar+TBBadge.m in Sources */,
+				2E11976520529BCE009B0E3F /* TBMeViewController.m in Sources */,
+				2E11976620529BCE009B0E3F /* TBCardViewController.m in Sources */,
 				2E11969320529045009B0E3F /* TBTabBar.m in Sources */,
+				2E11976120529BCE009B0E3F /* TBHomeViewController.m in Sources */,
 				2E11969520529045009B0E3F /* TBNavigationController.m in Sources */,
 				2E11969220529044009B0E3F /* AppDelegate.m in Sources */,
+				2E11976220529BCE009B0E3F /* TBMessageViewController.m in Sources */,
+				2E11976420529BCE009B0E3F /* TBHotViewController.m in Sources */,
 				2E11969420529045009B0E3F /* TBTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
