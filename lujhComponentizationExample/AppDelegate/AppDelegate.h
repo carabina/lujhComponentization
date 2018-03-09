@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  lujhComponentizationExample
+//  TabbarBeyondClick
 //
-//  Created by lujh on 2018/3/9.
-//  Copyright © 2018年 lujh. All rights reserved.
+//  Created by 卢家浩 on 2017/4/17.
+//  Copyright © 2017年 lujh. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
