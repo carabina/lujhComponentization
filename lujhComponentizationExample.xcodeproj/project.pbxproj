@@ -14,6 +14,12 @@
 		2E1196052052861E009B0E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1196032052861E009B0E3F /* LaunchScreen.storyboard */; };
 		2E1196082052861E009B0E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1196072052861E009B0E3F /* main.m */; };
 		2E1196122052861F009B0E3F /* lujhComponentizationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1196112052861F009B0E3F /* lujhComponentizationExampleTests.m */; };
+		2E119638205289C2009B0E3F /* lujhComponentizationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */; };
+		2E11963F205289C2009B0E3F /* lujhComponentizationFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11963E205289C2009B0E3F /* lujhComponentizationFrameworkTests.m */; };
+		2E119641205289C2009B0E3F /* lujhComponentizationFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E119631205289C2009B0E3F /* lujhComponentizationFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E119644205289C2009B0E3F /* lujhComponentizationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */; };
+		2E119645205289C2009B0E3F /* lujhComponentizationFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E11965020528A56009B0E3F /* lujh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11964F20528A56009B0E3F /* lujh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,42 @@
 			remoteGlobalIDString = 2E1195F42052861E009B0E3F;
 			remoteInfo = lujhComponentizationExample;
 		};
+		2E119639205289C2009B0E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E1195ED2052861E009B0E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E11962E205289C2009B0E3F;
+			remoteInfo = lujhComponentizationFramework;
+		};
+		2E11963B205289C2009B0E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E1195ED2052861E009B0E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1195F42052861E009B0E3F;
+			remoteInfo = lujhComponentizationExample;
+		};
+		2E119642205289C2009B0E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E1195ED2052861E009B0E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E11962E205289C2009B0E3F;
+			remoteInfo = lujhComponentizationFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E11964B205289C2009B0E3F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E119645205289C2009B0E3F /* lujhComponentizationFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E1195F52052861E009B0E3F /* lujhComponentizationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lujhComponentizationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +81,14 @@
 		2E11960D2052861F009B0E3F /* lujhComponentizationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lujhComponentizationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1196112052861F009B0E3F /* lujhComponentizationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lujhComponentizationExampleTests.m; sourceTree = "<group>"; };
 		2E1196132052861F009B0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lujhComponentizationFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E119631205289C2009B0E3F /* lujhComponentizationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lujhComponentizationFramework.h; sourceTree = "<group>"; };
+		2E119632205289C2009B0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E119637205289C2009B0E3F /* lujhComponentizationFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lujhComponentizationFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E11963E205289C2009B0E3F /* lujhComponentizationFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lujhComponentizationFrameworkTests.m; sourceTree = "<group>"; };
+		2E119640205289C2009B0E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E11964E20528A56009B0E3F /* lujh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lujh.h; sourceTree = "<group>"; };
+		2E11964F20528A56009B0E3F /* lujh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lujh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E119644205289C2009B0E3F /* lujhComponentizationFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +104,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E11962B205289C2009B0E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E119634205289C2009B0E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E119638205289C2009B0E3F /* lujhComponentizationFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +130,8 @@
 			children = (
 				2E1195F72052861E009B0E3F /* lujhComponentizationExample */,
 				2E1196102052861F009B0E3F /* lujhComponentizationExampleTests */,
+				2E119630205289C2009B0E3F /* lujhComponentizationFramework */,
+				2E11963D205289C2009B0E3F /* lujhComponentizationFrameworkTests */,
 				2E1195F62052861E009B0E3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +141,8 @@
 			children = (
 				2E1195F52052861E009B0E3F /* lujhComponentizationExample.app */,
 				2E11960D2052861F009B0E3F /* lujhComponentizationExampleTests.xctest */,
+				2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */,
+				2E119637205289C2009B0E3F /* lujhComponentizationFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +150,7 @@
 		2E1195F72052861E009B0E3F /* lujhComponentizationExample */ = {
 			isa = PBXGroup;
 			children = (
+				2E11964D20528A36009B0E3F /* lujhComponentization */,
 				2E1195F82052861E009B0E3F /* AppDelegate.h */,
 				2E1195F92052861E009B0E3F /* AppDelegate.m */,
 				2E1195FB2052861E009B0E3F /* ViewController.h */,
@@ -103,7 +173,45 @@
 			path = lujhComponentizationExampleTests;
 			sourceTree = "<group>";
 		};
+		2E119630205289C2009B0E3F /* lujhComponentizationFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2E119631205289C2009B0E3F /* lujhComponentizationFramework.h */,
+				2E119632205289C2009B0E3F /* Info.plist */,
+			);
+			path = lujhComponentizationFramework;
+			sourceTree = "<group>";
+		};
+		2E11963D205289C2009B0E3F /* lujhComponentizationFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E11963E205289C2009B0E3F /* lujhComponentizationFrameworkTests.m */,
+				2E119640205289C2009B0E3F /* Info.plist */,
+			);
+			path = lujhComponentizationFrameworkTests;
+			sourceTree = "<group>";
+		};
+		2E11964D20528A36009B0E3F /* lujhComponentization */ = {
+			isa = PBXGroup;
+			children = (
+				2E11964E20528A56009B0E3F /* lujh.h */,
+				2E11964F20528A56009B0E3F /* lujh.m */,
+			);
+			path = lujhComponentization;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E11962C205289C2009B0E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E119641205289C2009B0E3F /* lujhComponentizationFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2E1195F42052861E009B0E3F /* lujhComponentizationExample */ = {
@@ -113,10 +221,12 @@
 				2E1195F12052861E009B0E3F /* Sources */,
 				2E1195F22052861E009B0E3F /* Frameworks */,
 				2E1195F32052861E009B0E3F /* Resources */,
+				2E11964B205289C2009B0E3F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2E119643205289C2009B0E3F /* PBXTargetDependency */,
 			);
 			name = lujhComponentizationExample;
 			productName = lujhComponentizationExample;
@@ -141,6 +251,43 @@
 			productReference = 2E11960D2052861F009B0E3F /* lujhComponentizationExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2E11962E205289C2009B0E3F /* lujhComponentizationFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E11964A205289C2009B0E3F /* Build configuration list for PBXNativeTarget "lujhComponentizationFramework" */;
+			buildPhases = (
+				2E11962A205289C2009B0E3F /* Sources */,
+				2E11962B205289C2009B0E3F /* Frameworks */,
+				2E11962C205289C2009B0E3F /* Headers */,
+				2E11962D205289C2009B0E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lujhComponentizationFramework;
+			productName = lujhComponentizationFramework;
+			productReference = 2E11962F205289C2009B0E3F /* lujhComponentizationFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E119636205289C2009B0E3F /* lujhComponentizationFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E11964C205289C2009B0E3F /* Build configuration list for PBXNativeTarget "lujhComponentizationFrameworkTests" */;
+			buildPhases = (
+				2E119633205289C2009B0E3F /* Sources */,
+				2E119634205289C2009B0E3F /* Frameworks */,
+				2E119635205289C2009B0E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E11963A205289C2009B0E3F /* PBXTargetDependency */,
+				2E11963C205289C2009B0E3F /* PBXTargetDependency */,
+			);
+			name = lujhComponentizationFrameworkTests;
+			productName = lujhComponentizationFrameworkTests;
+			productReference = 2E119637205289C2009B0E3F /* lujhComponentizationFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +302,15 @@
 						ProvisioningStyle = Automatic;
 					};
 					2E11960C2052861F009B0E3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E1195F42052861E009B0E3F;
+					};
+					2E11962E205289C2009B0E3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2E119636205289C2009B0E3F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2E1195F42052861E009B0E3F;
@@ -176,6 +332,8 @@
 			targets = (
 				2E1195F42052861E009B0E3F /* lujhComponentizationExample */,
 				2E11960C2052861F009B0E3F /* lujhComponentizationExampleTests */,
+				2E11962E205289C2009B0E3F /* lujhComponentizationFramework */,
+				2E119636205289C2009B0E3F /* lujhComponentizationFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +356,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E11962D205289C2009B0E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E119635205289C2009B0E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -205,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E11965020528A56009B0E3F /* lujh.m in Sources */,
 				2E1195FD2052861E009B0E3F /* ViewController.m in Sources */,
 				2E1196082052861E009B0E3F /* main.m in Sources */,
 				2E1195FA2052861E009B0E3F /* AppDelegate.m in Sources */,
@@ -219,6 +392,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E11962A205289C2009B0E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E119633205289C2009B0E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E11963F205289C2009B0E3F /* lujhComponentizationFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -226,6 +414,21 @@
 			isa = PBXTargetDependency;
 			target = 2E1195F42052861E009B0E3F /* lujhComponentizationExample */;
 			targetProxy = 2E11960E2052861F009B0E3F /* PBXContainerItemProxy */;
+		};
+		2E11963A205289C2009B0E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E11962E205289C2009B0E3F /* lujhComponentizationFramework */;
+			targetProxy = 2E119639205289C2009B0E3F /* PBXContainerItemProxy */;
+		};
+		2E11963C205289C2009B0E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E1195F42052861E009B0E3F /* lujhComponentizationExample */;
+			targetProxy = 2E11963B205289C2009B0E3F /* PBXContainerItemProxy */;
+		};
+		2E119643205289C2009B0E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E11962E205289C2009B0E3F /* lujhComponentizationFramework */;
+			targetProxy = 2E119642205289C2009B0E3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -358,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
 				INFOPLIST_FILE = lujhComponentizationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationExample;
@@ -371,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
 				INFOPLIST_FILE = lujhComponentizationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationExample;
@@ -407,6 +612,76 @@
 			};
 			name = Release;
 		};
+		2E119646205289C2009B0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = lujhComponentizationFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E119647205289C2009B0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = lujhComponentizationFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E119648205289C2009B0E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lujhComponentizationFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lujhComponentizationExample.app/lujhComponentizationExample";
+			};
+			name = Debug;
+		};
+		2E119649205289C2009B0E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lujhComponentizationFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.lujhComponentizationFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lujhComponentizationExample.app/lujhComponentizationExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -433,6 +708,24 @@
 			buildConfigurations = (
 				2E1196252052861F009B0E3F /* Debug */,
 				2E1196262052861F009B0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E11964A205289C2009B0E3F /* Build configuration list for PBXNativeTarget "lujhComponentizationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E119646205289C2009B0E3F /* Debug */,
+				2E119647205289C2009B0E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E11964C205289C2009B0E3F /* Build configuration list for PBXNativeTarget "lujhComponentizationFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E119648205289C2009B0E3F /* Debug */,
+				2E119649205289C2009B0E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
