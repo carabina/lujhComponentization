@@ -194,11 +194,19 @@
 		2E11964D20528A36009B0E3F /* lujhComponentization */ = {
 			isa = PBXGroup;
 			children = (
+				2E11965120528DFF009B0E3F /* lujh */,
 				2E11964E20528A56009B0E3F /* lujh.h */,
 				2E11964F20528A56009B0E3F /* lujh.m */,
 			);
 			path = lujhComponentization;
 			sourceTree = SOURCE_ROOT;
+		};
+		2E11965120528DFF009B0E3F /* lujh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lujh;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
