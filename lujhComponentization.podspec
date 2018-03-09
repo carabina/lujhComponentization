@@ -11,7 +11,6 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 s.platform = :ios, '7.0'
 s.requires_arc = true
 s.source_files = "lujhComponentization", "*.{h,m}"
-s.resource     = 'lujhComponentization/lujh.bundle'
 s.ios.deployment_target = '7.0'
 s.frameworks   =  'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
 s.dependency 'SAMKeychain'
